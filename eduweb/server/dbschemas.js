@@ -148,7 +148,7 @@ module.exports = {
     Uploadcourse: mongoose.model('uploadcourse', uploadcourseschema),
     connectToDatabase: async () => {
         try {
-            await mongoose.connect('mongodb+srv://bhadjapriyanshi:cMtWPnr7hebMjPaF@kavan.zres2.mongodb.net/?retryWrites=true&w=majority&appName=Kavan', {
+            await mongoose.connect('mongodb+srv://bhadjapriyanshi:priyanshi04@cluster0.3kxyw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
            // await mongoose.connect('mongodb+srv://kavan2269:r0M4hRbLLZExonnO@kavan.ybbof1e.mongodb.net/?retryWrites=true&w=majority&appName=Kavan', {
             });
             console.log('Connected to MongoDB');
