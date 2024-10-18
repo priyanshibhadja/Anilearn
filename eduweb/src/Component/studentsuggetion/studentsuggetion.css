@@ -1,0 +1,185 @@
+.start{
+    .container {
+        margin-top: 130px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .progress-container {
+        /* margin-top: 50px; */
+        /* margin: auto; */
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-bottom: 30px;
+        max-width: 100%;
+        width: 70%;
+      }
+      
+      .progress-container::before {
+        content: "";
+        /* Mandatory with ::before */
+        background-color: black;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        height: 4px;
+        width: 100%;
+        z-index: -1;
+      }
+      
+      .progress {
+        background-color:#1AB79D;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        height: 4px;
+        width: 0%;
+        z-index: -1;
+        transition: 0.4s ease;
+      }
+      
+      .circle {
+        background-color: #fff;
+        color: #999;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 3px solid grey;
+        transition: 0.4s ease;
+      }
+      
+      .circle.active {
+        border-color: #1AB79D;
+      }
+      
+      .btn {
+        background-color: orange;
+        color: #fff;
+        border: 0;
+        border-radius: 6px;
+        cursor: pointer;
+        font-family: inherit;
+        padding: 8px 30px;
+        margin: 5px;
+        font-size: 14px;
+      }
+      
+      .btn:active {
+        transform: scale(0.98);
+      }
+      
+      .btn:focus {
+        outline: 0;
+      }
+      
+      .btn:disabled {
+        background-color: gray;
+        cursor: not-allowed;
+      }
+      
+      .form {
+        color: #1c2c52;
+        position: relative;
+        max-width: 1000px;
+        width: 100%;
+        padding: 25px;
+        border-radius: 8px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      }
+      
+      .form .input-box {
+        width: 100%;
+        margin-top: 20px;
+        margin-right: 40px;
+      }
+      
+      .input-box label {
+        color: #333;
+      }
+      
+      .input-box button {
+        /* color: #333; */
+        width: 100%;
+      }
+      
+      .form :where(.input-box input, .select-box) {
+        /* position: relative; */
+        height: 50px;
+        width: 100%;
+        outline: none;
+        font-size: 1.3rem;
+        color: #707070;
+        margin-top: 8px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        padding: 0 15px;
+      }
+      
+      .input-box input:focus {
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+      }
+      .form .column {
+        display: flex;
+        column-gap: 15px;
+      }
+      
+      .form .gender-box {
+        margin-top: 20px;
+      }
+      
+      .gender-box h3 {
+        color: #333;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 8px;
+      }
+      
+      .form :where(.gender-option, .gender) {
+        display: flex;
+        align-items: center;
+        column-gap: 50px;
+        flex-wrap: wrap;
+      }
+      
+      .form .gender {
+        column-gap: 5px;
+      }
+      
+      .gender input {
+        accent-color: black;
+      }
+      
+      .form :where(.gender input, .gender label) {
+        cursor: pointer;
+      }
+      
+      .gender label {
+        color: #707070;
+      }
+      
+      .address :where(input, .select-box) {
+        margin-top: 15px;
+      }
+      .select-box select {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        border: none;
+        color: #707070;
+        font-size: 1rem;
+      }  
+      .payment {
+        column-gap: 50px;
+      }
+      .payment img {
+        width: 60px;
+      }
+}

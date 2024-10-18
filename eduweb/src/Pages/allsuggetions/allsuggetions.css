@@ -1,0 +1,32 @@
+table{
+    margin: auto;
+    /* margin-top: 130px; */
+    width: 60vw;
+  }
+  
+  thead{
+    background-color: #1AB79D;
+  }
+  
+  th{
+    border-radius: 7px;
+    border-bottom:2px solid #000000;
+    padding: 10px;
+    font-size: 20px;
+    color: #000000;
+  }
+  tr{
+    text-align: center;
+  }
+  td{
+    color: #000000;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  td a:hover{
+    color: #002ee6;
+  }
+  td a{
+    color: black;
+  }

@@ -1,0 +1,136 @@
+/* Add this to your CSS file */
+.space-y-3 {
+    margin-top: 1rem; /* Adjust as needed */
+  }
+  .faq{
+    width: 100%;
+  }
+  .mt-5 {
+    margin-top: 1.25rem; /* Adjust as needed */
+  }
+  
+  .pb-5 {
+    padding-bottom: 1.25rem; /* Adjust as needed */
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  .answer{
+    font-size: 13px;
+  }
+  .text-lg {
+    font-size: initial;; /* Adjust as needed */
+  }
+  
+  .text-gray-700 {
+    color: #4b5563; /* Adjust as needed */
+  }
+  
+  .font-medium {
+    font-weight: 500;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .text-gray-500 {
+    color: #6b7280; /* Adjust as needed */
+  }
+  
+  .h-5 {
+    height: 1.25rem; /* Adjust as needed */
+  }
+  
+  .w-5 {
+    width: 1.25rem; /* Adjust as needed */
+  }
+  
+  .ml-2 {
+    margin-left: 0.5rem; /* Adjust as needed */
+  }
+  
+  .border-b {
+    border-bottom: 1px solid #e5e7eb; /* Adjust as needed */
+  }
+  .title_heading_faq{
+    text-align: center;
+    font-size: 35px;
+    color: black;
+    margin-left: 60px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-3xl {
+    font-size: 35px; /* Adjust as needed */
+  }
+  
+  .text-gray-800 {
+    color: #1a202c; /* Adjust as needed */
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-gray-600 {
+    color: #4a5568; /* Adjust as needed */
+  }
+  
+  .max-w-lg {
+    max-width: 32rem; /* Adjust as needed */
+  }
+  
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .max-w-screen-xl {
+    max-width: 1280px; /* Adjust as needed */
+  }
+  
+  .px-4 {
+    padding-left: 1rem; /* Adjust as needed */
+    padding-right: 1rem; /* Adjust as needed */
+  }
+  
+  .md\:px-8 {
+    padding-left: 2rem; /* Adjust as needed */
+    padding-right: 2rem; /* Adjust as needed */
+  }
+  
+  .mt-14 {
+    margin-top: 3.5rem; /* Adjust as needed */
+  }
+  
+  .max-w-2xl {
+    max-width: rem;
+     /* Adjust as needed */
+  }
+  .faq_font{
+    font-size: 10px;
+  }
+  .leading-relaxed {
+    line-height: 1.625; /* Adjust as needed */
+  }
+  
+  .duration-300 {
+    transition-duration: 0.3s;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  

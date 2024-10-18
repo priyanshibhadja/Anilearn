@@ -1,0 +1,243 @@
+.All_courses {
+  
+  padding: 40px;
+  /* background-color: #f5f5f5; */
+  height: fit-content;
+  z-index: 3;
+  position: absolute;
+  top: 10px;
+  bottom: +5px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  gap: 35px;
+
+}
+
+.course-cards {
+  
+  width: 30%;
+  position: relative;
+  background-color: var(--white);
+  border-radius: var(--radius-5);
+  overflow: hidden;
+  box-shadow: 0 0 20px 0 rgb(222, 222, 222);
+}
+
+.course-cards .img-cover {
+  transition: var(--transition-2);
+}
+
+.course-cards:is(:hover, :focus-within) .img-cover {
+  transform: scale(1.1);
+}
+
+.course-cards :is(.abs-badge, .badge) {
+  font-family: var(--ff-league_spartan);
+  border-radius: var(--radius-3);
+}
+
+.course-cards .abs-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--selective-yellow);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 5spx;
+  line-height: 1;
+  padding: 6px 8px;
+  padding-block-end: 3px;
+}
+
+.course-cards .abs-badge ion-icon {
+  font-size: 18px;
+  margin-block-end: 5px;
+  --ionicon-stroke-width: 50px;
+}
+
+
+.course-cards .badge {
+  background-color: var(--kappel_15);
+  max-width: max-content;
+  color: var(--kappel);
+  line-height: 25px;
+  padding-inline: 10px;
+}
+
+.course-cards .card-title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  margin-block: 15px 8px;
+  transition: var(--transition-1);
+}
+
+.course-cards .card-title:is(:hover, :focus) {
+  color: var(--kappel);
+}
+
+.course-cards :is(.wrapper, .rating-wrapper, .card-meta-list, .card-meta-item) {
+  display: flex;
+  align-items: center;
+}
+
+.course-cards .wrapper {
+  gap: 10px;
+}
+
+.course-cards .rating-wrapper {
+  gap: 3px;
+}
+
+.course-cards .rating-wrapper ion-icon {
+  color: var(--selective-yellow);
+}
+
+.course-cards .rating-text {
+  color: var(--eerie-black-1);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+}
+
+.course-cards .price {
+  color: var(--radical-red);
+  font-family: var(--ff-league_spartan);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-600);
+  margin-block: 8px 15px;
+}
+
+.course-cards .card-meta-list {
+  flex-wrap: wrap;
+}
+
+.course-cards .card-meta-item {
+  position: relative;
+  gap: 5px;
+}
+
+.course-cards .card-meta-item:not(:last-child)::after {
+  content: "|";
+  display: inline-block;
+  color: var(--platinum);
+  padding-inline: 10px;
+}
+
+.course-cards .card-meta-item ion-icon {
+  color: var(--quick-silver);
+  --ionicon-stroke-width: 50px;
+}
+
+.course-cards .card-meta-item .span {
+  color: var(--eerie-black-1);
+  font-size: var(--fs-7);
+}
+
+.course-cards :is(.abs-badge, .badge) {
+  font-family: var(--ff-league_spartan);
+  border-radius: var(--radius-3);
+}
+
+.course-cards .abs-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--selective-yellow);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 1;
+  padding: 6px 8px;
+  padding-block-end: 3px;
+}
+
+.course-cards .abs-badge ion-icon {
+  font-size: 18px;
+  margin-block-end: 5px;
+  --ionicon-stroke-width: 50px;
+}
+
+.course-cards .card-content {
+  padding: 25px;
+}
+
+.course-cards .badge {
+  background-color: var(--kappel_15);
+  max-width: max-content;
+  color: var(--kappel);
+  line-height: 25px;
+  padding-inline: 10px;
+}
+
+.course-cards .badge {
+  background-color: var(--kappel_15);
+  max-width: max-content;
+  color: var(--kappel);
+  line-height: 25px;
+  padding-inline: 10px;
+}
+
+.course-cards :is(.wrapper, .rating-wrapper, .card-meta-list, .card-meta-item) {
+  display: flex;
+  align-items: center;
+}
+
+.course-cards .wrapper {
+  gap: 10px;
+}
+
+.course-cards .rating-wrapper {
+  gap: 3px;
+}
+
+.course-cards .rating-wrapper ion-icon {
+  color: var(--selective-yellow);
+}
+
+
+.course-cards .rating-text {
+  color: var(--eerie-black-1);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+}
+
+.course-cards .price {
+  color: var(--radical-red);
+  font-family: var(--ff-league_spartan);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-600);
+  margin-block: 8px 15px;
+}
+
+.course-cards .card-meta-list {
+  flex-wrap: wrap;
+}
+
+.course-cards .card-meta-item {
+  position: relative;
+  gap: 5px;
+}
+
+.course-cards .card-meta-item:not(:last-child)::after {
+  content: "|";
+  display: inline-block;
+  color: var(--platinum);
+  padding-inline: 10px;
+}
+
+.course-cards .card-meta-item ion-icon {
+  color: var(--quick-silver);
+  --ionicon-stroke-width: 50px;
+}
+
+.course-cards .card-meta-item .span {
+  color: var(--eerie-black-1);
+  font-size: var(--fs-7);
+}

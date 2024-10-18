@@ -1,0 +1,164 @@
+
+.content_course{
+    color: black;
+    display: flex;
+    gap: 88px;
+    margin: 50px;
+    margin-top: 100px;
+    align-items: center;
+}
+.desc{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.video-player {
+    box-shadow: 0 0 30px 0 rgb(210, 210, 210);
+    width: 582px;
+    margin-top: 40px;
+    height: 310px; /* Make the video player responsive */
+    /* Add a border around the video player */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+
+.btn {
+    background-color: var(--kappel);
+    color: var(--white);
+    font-family: var(--ff-league_spartan);
+    font-size: var(--fs-4);
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    max-width: max-content;
+    padding: 10px 20px;
+    border-radius: var(--radius-5);
+    overflow: hidden;
+  }
+  .span_btn{
+    font-size: 20px;
+  }
+  
+  .image_cource_video{
+    border-radius: 2px;
+    height: 150px;
+  }
+  .all_cource_video{
+    align-items: center;
+    padding-left: 65px;
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    border: 5px;
+  }
+  .title_heading{
+    text-align: left;
+    font-size: 35px;
+    color: black;
+    margin-left: 60px;
+  }
+  /* You can include this CSS in your existing stylesheets or use a CSS-in-JS solution */
+
+/* Styles for the section container */
+.py-14 {
+  padding-top: 3.5rem; /* Adjust according to your design */
+  padding-bottom: 3.5rem; /* Adjust according to your design */
+}
+
+/* Styles for the heading and paragraph */
+.text-gray-800 {
+  color: #2d3748; /* Adjust according to your design */
+}
+
+.text-3xl {
+  font-size: 1.875rem; /* Adjust according to your design */
+}
+
+.font-semibold {
+  font-weight: 600; /* Adjust according to your design */
+}
+
+.mt-3 {
+  margin-top: 0.75rem; /* Adjust according to your design */
+}
+
+/* Styles for the list container */
+.max-w-screen-xl {
+  max-width: 1280px; /* Adjust according to your design */
+}
+
+.px-4 {
+  padding-left: 1rem; /* Adjust according to your design */
+  padding-right: 1rem; /* Adjust according to your design */
+}
+
+.text-gray-600 {
+  color: #4a5568; /* Adjust according to your design */
+}
+
+.md\:px-8 {
+  @media (min-width: 768px) {
+      padding-left: 2rem; /* Adjust according to your design */
+      padding-right: 2rem; /* Adjust according to your design */
+  }
+}
+
+/* Styles for the list items */
+.text-center {
+  text-align: center; /* Adjust according to your design */
+}
+
+.px-12 {
+  padding-left: 3rem; /* Adjust according to your design */
+  padding-right: 3rem; /* Adjust according to your design */
+}
+
+.md\:px-16 {
+  @media (min-width: 768px) {
+      padding-left: 4rem; /* Adjust according to your design */
+      padding-right: 4rem; /* Adjust according to your design */
+  }
+}
+
+.text-4xl {
+  font-size: 2.25rem; /* Adjust according to your design */
+}
+
+.text-indigo-600 {
+  color: var(--kappel); /* Adjust according to your design */
+}
+
+.font-medium {
+  font-weight: 500; /* Adjust according to your design */
+}
+
+/* Additional styles for responsiveness */
+@media (min-width: 640px) {
+  .flex {
+      display: flex; /* Adjust according to your design */
+  }
+}
+
+@media (min-width: 1024px) {
+  .gap-y-10 {
+      gap: 2.5rem; /* Adjust according to your design */
+  }
+
+  .sm\:flex-row {
+      @media (min-width: 640px) {
+          flex-direction: row; /* Adjust according to your design */
+      }
+  }
+
+  .sm\:flex-wrap {
+      @media (min-width: 640px) {
+          flex-wrap: wrap; /* Adjust according to your design */
+      }
+  }
+
+  .lg\:divide-x > *:not(:last-child) {
+      border-right-width: 1px; /* Adjust according to your design */
+      border-color: #e2e8f0; /* Adjust according to your design */
+  }
+}
